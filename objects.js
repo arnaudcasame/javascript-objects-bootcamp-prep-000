@@ -1,4 +1,4 @@
-let playlist = {
+var playlist = {
   "Eminem" : 'Stan',
   "Dr Dre" : 'Still D.R.E'
 }
