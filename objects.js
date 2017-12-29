@@ -3,12 +3,12 @@ let playlist = {
   "Dr Dre" : 'Still D.R.E'
 }
 
-function updatePlaylist(obj, artist, song){
-  obj[artist] = song;
+function updatePlaylist(playlist, artistName, songTitle){
+  playlist[artistName] = songTitle;
   return playlist;
 }
 
-function removeFromPlaylist(obj, artist){
-  delete obj.artist;
+function removeFromPlaylist(playlist, artistName){
+  delete playlist.artistName;
   return obj;
 }
