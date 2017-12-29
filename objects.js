@@ -1,11 +1,11 @@
-let playlist = new Object({
+let playlist = {
   "Eminem" : 'Stan',
   "Dr Dre" : 'Still D.R.E'
-});
+}
 
 function updatePlaylist(playlist, artistName, songTitle){
-  Object.assign({}, playlist, {[artistName]: songTitle})
-  return playlist;
+  
+  return Object.assign({}, playlist, {[artistName]: songTitle});
 }
 
 function removeFromPlaylist(playlist, artistName){
